@@ -15,13 +15,13 @@ blog post.
 az login
 ```
 
-**Step 2:** List the available subscriptions and locate the preferred subscription ID.
+**Step 2:** List the available subscriptions and locate the preferred subscription identifier.
 
 ```bash
 az account list --output table
 ```
 
-**Step 3:** Set the subscription that you're using to deploy the resources. Use the subscription ID from the
+**Step 3:** Set the subscription that you're using to deploy the resources. Use the subscription identifier from the
 previous step.
 
 ```bash
