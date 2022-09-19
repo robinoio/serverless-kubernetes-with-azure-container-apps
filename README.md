@@ -15,17 +15,17 @@ blog post.
 az login
 ```
 
-**Step 2:** List the available subscriptions and locate the preferred subscription id.
+**Step 2:** List the available subscriptions and locate the preferred subscription ID.
 
 ```bash
 az account list --output table
 ```
 
-**Step 3:** Set the subscription that you're using to deploy the resources. Use the subscription id from the
+**Step 3:** Set the subscription that you're using to deploy the resources. Use the subscription ID from the
 previous step.
 
 ```bash
-az account set --subscription <subscriptionID>
+az account set --subscription <subscriptionId>
 ```
 
 **Step 4:** Because the Azure Container Apps extension is still in preview, you'll need to install the `containerapp` extension.
